@@ -1,51 +1,31 @@
-# 2330511031_Nazwa-Syafiya-M_P2
-# Welcome to your Expo app 👋
+# Praktikum 2 – Struktur Project & Komponen Dasar
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Nama: Nazwa Syafiya Mirzal  
+NIM: 2330511031  
+Kelas: 5A
+Mata Kuliah: Mobile Programming Multi Platform 
+Dosen Pengampu: Prajoko, S.Pd.I., M.Kom  
 
-## Get started
+## Cara Menjalankan Proyek
+1. Clone repository ini:
+   git clone https://github.com/nazwasm/2330511031_Nazwa-Syafiya-M_RN_P2.git
+   
+2. Masuk ke folder proyek:
+cd 2330511031_Nazwa-Syafiya-M_RN_P2
 
-1. Install dependencies
+3. Install dependensi:
+npm install
 
-   ```bash
-   npm install
-   ```
+4. Jalankan aplikasi:
+npx expo start
+Buka aplikasi Expo Go di perangkat Android, lalu scan QR code yang muncul untuk menjalankan aplikasi.
 
-2. Start the app
+## Versi Lingkungan Pengembangan
+Node.js: v22.20.0
+npm: v10.9.3
+Expo SDK: v54.0.13
+Perangkat Uji: HP Android (Expo Go) 
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Ringkasan Pembelajaran
+Pada praktikum ini saya belajar membuat struktur proyek React Native yang modular dengan memisahkan file ke dalam folder src/screens dan src/components. Saya membuat halaman daftar buku harian (Diary App) yang menampilkan minimal tiga entri dengan View, Text, dan Image. Setiap entri ditampilkan dalam komponen DiaryCard yang menerima data melalui props. Saya juga belajar menggunakan StyleSheet untuk mengatur tampilan agar lebih rapi dan konsisten. Praktikum ini membantu saya memahami konsep komponen terpisah, penggunaan props, serta penataan struktur proyek yang terorganisir dalam React Native.
+Melalui praktikum ini, saya memahami struktur proyek Expo, alur kerja dari setup sampai running di perangkat, serta konsep dasar state dan layout yang menjadi fondasi penting dalam pengembangan aplikasi mobile React Native.
