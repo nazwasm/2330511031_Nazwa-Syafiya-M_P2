@@ -1,51 +1,34 @@
-# 2330511031_Nazwa-Syafiya-M_P2
-# Welcome to your Expo app 👋
+# Praktikum 3 – Desain UI dengan Flexbox
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Nama: Nazwa Syafiya Mirzal  
+NIM: 2330511031  
+Kelas: 5A
+Mata Kuliah: Mobile Programming Multi Platform 
+Dosen Pengampu: Prajoko, S.Pd.I., M.Kom  
 
-## Get started
+## Deskripsi
+Praktikum 3 ini merupakan **lanjutan dari Praktikum 2 (Struktur Project & Komponen Dasar)** dengan fokus pada:
+- Penerapan **Flexbox** untuk mengatur layout.
+- Penggunaan **StyleSheet** dengan design tokens agar konsisten.
+- Pembuatan **layout responsif** (1 kolom di ponsel, 2 kolom di tablet/web).
+- Penambahan **komponen DiaryDetailModal** dan penyempurnaan tampilan `DiaryCard`.
 
-1. Install dependencies
+## Cara Menjalankan Proyek
+1. Clone repository ini:
+   git clone https://github.com/nazwasm/2330511031_Nazwa-Syafiya-M_RN_P2.git
+   
+2. Masuk ke folder proyek:
+cd 2330511031_Nazwa-Syafiya-M_RN_P2
 
-   ```bash
-   npm install
-   ```
+3. Install dependensi:
+npm install
 
-2. Start the app
+4. Jalankan aplikasi:
+npx expo start
+Buka aplikasi Expo Go di perangkat Android, lalu scan QR code yang muncul untuk menjalankan aplikasi.
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Versi Lingkungan Pengembangan
+Node.js: v22.20.0
+npm: v10.9.3
+Expo SDK: v54.0.13
+Perangkat Uji: HP Android (Expo Go) 
