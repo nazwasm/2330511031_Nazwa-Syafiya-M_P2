@@ -27,6 +27,9 @@ npm install
 npx expo start
 Buka aplikasi Expo Go di perangkat Android, lalu scan QR code yang muncul untuk menjalankan aplikasi.
 
+## Ringkasan Pembelajaran
+Pada praktikum ini saya mengembangkan Diary App agar tampil lebih konsisten dan responsif. Saya membuat design tokens di file tokens.js untuk mengatur warna, jarak, dan ukuran teks yang seragam di seluruh komponen. Layout daftar entri diary dibuat menggunakan FlatList yang menyesuaikan jumlah kolom berdasarkan lebar layar (1 kolom untuk ponsel, 2 kolom untuk tablet/web). Saya juga menambahkan DiaryDetailModal agar pengguna dapat melihat detail entri diary dengan lebih jelas. Selain itu, saya menerapkan aksesibilitas seperti label dan kontras warna agar aplikasi lebih ramah pengguna.
+
 ## Versi Lingkungan Pengembangan
 Node.js: v22.20.0
 npm: v10.9.3
